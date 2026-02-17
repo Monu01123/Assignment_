@@ -39,13 +39,14 @@ npm run dev
 ```
 The frontend runs on `http://localhost:5173`.
 
-## Environment Variables
-The `server/.env` file is pre-configured with the provided credentials:
-```
-MONGO_URI=...
-JWT_SECRET=...
-PORT=5000
-```
+## Live Demo
+-   **Frontend (Vercel)**: [https://my-app-frontend.vercel.app](https://my-app-frontend.vercel.app) *(Replace with your actial Vercel URL)*
+-   **Backend (Render)**: [https://my-app-backend-53rz.onrender.com](https://my-app-backend-53rz.onrender.com)
+
+## Documentation & Delliverables
+-   **Scalability Report**: [SCALABILITY.md](./SCALABILITY.md)
+-   **Postman Collection**: [postman_collection.json](./postman_collection.json)
+-   **Verification Guide**: [walkthrough.md](./walkthrough.md)
 
 ## API Endpoints
 -   `POST /api/auth/signup`: Register a new user.
